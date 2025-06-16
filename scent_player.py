@@ -32,7 +32,7 @@ def play_scented_track(track, smeller, start_time=0):
             time.sleep(0.5)
 
 if __name__ == "__main__":
-    smeller = FakeSmeller()  # 👈 Используем заглушку
+    smeller = FakeSmeller()  #  Используем заглушку
     scent_track = load_scent_track("example_track.scent")
     print("Старт аромадорожки!")
     play_scented_track(scent_track, smeller)
